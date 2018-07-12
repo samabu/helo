@@ -1,7 +1,7 @@
 const UPDATE_USER_DATA = "UPDATE_USER_DATA";
 const USER_DATA = "USER_DATA";
-const GET_FRIENDS = "GET_FRIENDS"
-const GET_EVENT_ID = "GET_EVENT_ID"
+const GET_FRIENDS = "GET_FRIENDS";
+const GET_EVENT_ID = "GET_EVENT_ID";
 
 const initialState = {
     user: {},
@@ -36,6 +36,7 @@ export function getEventID(eventID) {
         payload: eventID
     }
 }
+
 
 export default function reducer(state=initialState, action) {
     switch (action.type) {

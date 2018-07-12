@@ -88,6 +88,7 @@ app.get('/auth/callback', async (req, res) => {
   app.get('/api/invitefriendsearch/:input', ec.search)
   app.post('/api/create', ec.create)
   app.post('/api/invitefriend', ec.invite_friend)
+  app.get('/api/events', ec.read)
 
 const SERVER_PORT = process.env.SERVER_PORT;
 app.listen(SERVER_PORT, () => {

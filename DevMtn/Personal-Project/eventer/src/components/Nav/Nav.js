@@ -9,6 +9,7 @@ class Nav extends Component {
                 <Link to="/dashboard"><button>HOME</button></Link>
                 <Link to="/profile"><button>PROFILE</button></Link>
                 <Link to="/friends"><button>FRIENDS</button></Link>
+                <Link to="/events"><button>EVENTS</button></Link>
                 <Link to="/"><button>LOGOUT</button></Link>
             </nav>
         </div>
